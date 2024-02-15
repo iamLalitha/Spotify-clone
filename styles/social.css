@@ -1,0 +1,49 @@
+.social-icons img{
+    height: 22px;
+    width: 22px;
+    border-radius: 8px;
+}
+.social-icons button{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+.social-icons{
+    margin-top: 10px;
+}
+.final-info{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-top: 80px;
+   margin-left: 18px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+ @media (max-width:1000px){
+    .flex{
+        grid-template-columns:1fr ;
+    }
+ }
+ @media(max-width:1000px){
+    .final-info{
+        flex-direction: column;
+    }
+ }
+ .heading{
+    font-weight: 700;
+    font-size: 16px;
+ }
+ .links{
+    color: gray;
+    font-size: 16px;
+    font-weight: 500;
+ }
+ .links:hover{
+    text-decoration: underline;
+    color: white;
+ }

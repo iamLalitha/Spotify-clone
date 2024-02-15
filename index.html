@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Spotify Clone
+        </title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+          rel="stylesheet"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="styles/sidebar.css">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/menu.css">
+        <link rel="stylesheet" href="styles/audio.css">
+        <link rel="stylesheet" href="styles/social.css">
+        <link rel="stylesheet" href="styles/footer.css">
+
+    </head>
+    <body>
+        <header class="header">
+            
+            <div class="left-section">
+                <i class="fa-solid fa-chevron-left"></i>
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          
+            <div class="right-section">
+                <button class="explore-premium-button" >Explore Premium</button>
+                <button class="install-app-button">Install App</button>
+                <div class="notification-icon-container">
+                    <img class="notification-icon" src="icons/notifications-icon-448x512-sms1ml1l.png">
+                    <div class="tooltip">what's new</div>
+                </div>
+                
+                <img class="current-user-picture" src="icons/mychannelpic.jpg">
+            </div>
+    </header>
+      
+        <!-- creating a sidebar  -->
+        <nav class="sidebar">
+            <!-- creating sidebar1  -->
+            <div class="sidebar1">
+                <div class="sidebar-link">
+                    <img src="icons/white-home-icon-png-21.jpg">
+                    <div class="home-div">Home</div>
+                </div>
+                <div class="sidebar-link">
+                    <img src="icons/search-icon-2044x2048-psdrpqwp.png">
+                    <div class="search-div">Search</div>
+                </div>
+            </div>
+            <!-- creating sidebar2  -->
+            <div class="sidebar2">
+                <div class="row1">
+                    <img class="library-icon" src="icons/library-icon-removebg-preview.png">
+                    <div class="your-library">Your Library 
+                        <div class="tooltip">Collapse your library</div>
+                    </div>
+                    <div class="add-button-container">
+                        <button class="add-icon">+</button>
+                        <div class="tooltip">Create playlist or folder</div>
+                    </div>
+                    
+                </div>
+                <div class="row2">
+                    <p class="playlist-h1">Create your first playlist</p>
+                    <p class="playlist-h2">It's easy, we'll help you</p>
+                    <button class="create-playlist-button">Create playlist</button>
+                </div>
+                <div class="row3">
+                    <p class="playlist-h1">Let's find some podcasts to follow</p>
+                    <p class="playlist-h2">we'll keep you updated on new episodes</p>
+                    <button class="browse-podcasts-button">Browse podcasts</button>
+                </div>
+            </div>
+        </nav>
+        <div class="options">
+            <button class="all-button">All</button>
+            <button>Music</button>
+            <button>Podcasts</button>
+        </div>
+      
+        <div class="title">
+            <div class="h1">Try something else</div>
+            <div class="h2">show all</div>
+            </div>
+
+        <div class="audio-grid">
+            <div class="audio-preview">
+                <div class="thumbnail-row">
+                    <a href="https://open.spotify.com/playlist/0Y44bc2Fd2IfbhqSPnNlTC?si=674ceba757e24d44"><img class="cover-art" src="icons/cover4.jpg"></a>
+                     <div class="play-button"><i  class="fa-solid fa-play"></i></div> 
+                   
+                </div>
+                <div class="audio-info">
+                    <p class="audio-title">Taylor Hits</p>
+                    <p class="audio-details">Listen to energetic pop hits of taylor swift...</p>
+                </div>
+            </div>
+
+            <div class="audio-preview">
+                <div class="thumbnail-row">
+                    <a href="https://open.spotify.com/artist/7hr9W3IjXcm3UlLY7guLk5?si=Ve2CcHrbStaGqg3ogYqgtA"><img class="cover-art" src="icons/cover3.jpg"></a>
+                     <div class="play-button"><i  class="fa-solid fa-play"></i></div> 
+                   
+                </div>
+                <div class="audio-info">
+                    <p class="audio-title">Henry Moodie</p>
+                    <p class="audio-details">Listen to soulful singing of Henry Moodie...</p>
+                </div>
+            </div>
+
+            <div class="audio-preview">
+                <div class="thumbnail-row">
+                    <a href="https://open.spotify.com/playlist/7CpB0xT3fpqc6pT4o2r9OY?si=4b1e534b41634cd6">  <img class="cover-art" src="icons/cover2.jpg"></a>
+                     <div class="play-button"><i  class="fa-solid fa-play"></i></div> 
+                   
+                </div>
+                <div class="audio-info">
+                    <p class="audio-title">90s Hits</p>
+                    <p class="audio-details">Listen to 90's melody...</p>
+                </div>
+            </div>
+
+            <div class="audio-preview">
+                <div class="thumbnail-row">
+                    <a href="https://open.spotify.com/playlist/36mhJMWC6OxwhIXqfGJFMv?si=fcef9f0425d5432a"><img class="cover-art" src="icons/bollywood cover.jpg"></a>
+                     <div class="play-button"><i  class="fa-solid fa-play"></i></div> 
+                   
+                </div>
+                <div class="audio-info">
+                    <p class="audio-title">Bollywood collection</p>
+                    <p class="audio-details">The Bollywood Collections - Listen to mix of all bollywood songs...</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- creating another content  -->
+        <div class="title">
+            <div class="h1">Spotify original & exclusive shows</div>
+            <div class="h2">show all</div>
+            </div>
+
+        <div class="audio-grid">
+            <div class="audio-preview">
+                <div class="thumbnail-row">
+                    <a href="https://open.spotify.com/show/5EqqB52m2bsr4k1Ii7sStc?si=84a9a6fff9964c04"><img class="cover-art" src="icons/jayshetty.jpg"></a>
+                     <div class="play-button"><i  class="fa-solid fa-play"></i></div> 
+                   
+                </div>
+                <div class="audio-info">
+                    <p class="audio-title">On Purpose - Jayshetty</p>
+                    <p class="audio-details">iheartPodcasts</p>
+                </div>
+            </div>
+
+            <div class="audio-preview">
+                <div class="thumbnail-row">
+                    <a href="https://open.spotify.com/show/6SZVsPIxPfVs6aavqM1peY?si=b70c1baa14e445c3"><img class="cover-art" src="icons/garyvee.jpg"></a>
+                     <div class="play-button"><i  class="fa-solid fa-play"></i></div> 
+                   
+                </div>
+                <div class="audio-info">
+                    <p class="audio-title">The Garyvee Audio Experience</p>
+                    <p class="audio-details">Podcast . Gary Vaynerchuk</p>
+                </div>
+            </div>
+
+            <div class="audio-preview">
+                <div class="thumbnail-row">
+                    <a href="https://open.spotify.com/show/6ZcvVBPQ2ToLXEWVbaw59P?si=dbd5b44298c34032">  <img class="cover-art" src="icons/ranveer.jpg"></a>
+                     <div class="play-button"><i  class="fa-solid fa-play"></i></div> 
+                   
+                </div>
+                <div class="audio-info">
+                    <p class="audio-title">The Ranveer Show</p>
+                    <p class="audio-details">Podcast . BeerBiceps</p>
+                </div>
+            </div>
+
+            <div class="audio-preview">
+                <div class="thumbnail-row">
+                    <a href="https://open.spotify.com/show/26SO08J1haNQWg00gD5Hj1?si=c79ce477879f49d6"><img class="cover-art" src="icons/pratik.jpg"></a>
+                     <div class="play-button"><i  class="fa-solid fa-play"></i></div> 
+                   
+                </div>
+                <div class="audio-info">
+                    <p class="audio-title">Digital Pratik Show</p>
+                    <p class="audio-details">Podcast . Digital Pratik</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="final-info">
+            <div class="grid">
+                <div class="company">
+                    <p class="heading">Company</p>
+                    <p class="links">About</p>
+                    <p class="links">Jobs</p>
+                    <p class="links">For the Record</p>
+                </div>
+                <div class="communities">
+                    <p class="heading">Communities</p>
+                    <p class="links">For Artists</p>
+                    <p class="links">Developers</p>
+                    <p class="links">Advertising</p>
+                    <p class="links">Investors</p>
+                    <p class="links">Vendors</p>
+                </div>
+                <div class="useful-links">
+                    <p class="heading">Useful Links</p>
+                    <p class="links">Support</p>
+                    <p class="links">Free Mobile App</p>
+                </div>
+            </div>
+            
+            <div class="social-icons">
+                <button><img src="icons/insta.png"></button>
+                <button><img src="icons/tweet.png"></button>
+                <button><img src="icons/facebook.png"></button>
+            </div>
+        </div>
+    
+        <footer class="footer">
+            <div class="legal-links">
+                <p>Legal</p>
+                <p>Privacy Center</p>
+                <p>Privacy Policy</p>
+                <p>Cookies</p>
+                <p>About Ads</p>
+                <p>Accessibility</p>
+            </div>
+           
+           <div class="trademark">© 2024 Spotify AB</div>
+        </footer>
+    </body>
+</html>
